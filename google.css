@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    text-align: center;
+    padding: 14px 12px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+.small{
+    font-size: 1rem;
+}
+
+
+
+.menu-bg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+
+}
+.menu-bg:hover{
+       background-color: rgba(100,100,100,0.1);
+
+}
+.lab1 {
+    width: 18px;
+    margin-top: -4px;
+}
+.app{
+    margin-top: -2px;
+    width: 18px;
+
+}
+.profile-pic{
+    margin-top: 7px;
+    border-radius: 50%;
+    width: 80%;
+    
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10%
+}
+.gologo{
+    width: 272px;
+    height: 92px;
+}
+.search-wrapper{
+    height:60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+}
+form{
+    position: relative;
+}
+input:hover{
+    box-shadow: 0 1px 3px 1px rgba(201,201,201,0.5);
+
+}
+input:focus{
+    outline: none;
+}
+.search{
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+.mic{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    left: 540px;
+}
+.buttons{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+}
+button{
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin: 11px 4px;
+}
+button:hover{
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 2px 1px rgba(189,189,189,);
+}
